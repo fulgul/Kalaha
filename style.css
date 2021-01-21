@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    font-size: 28pt;   
+    margin-bottom: 50px;
+}
+
+.start-button, .rule-button{
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28pt;
+    margin: 0;
+
+}
+.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.board{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.kalaha{
+    margin: 0 10px;
+
+}
+
+.ambos{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 0;
+}
+
+.row{
+    height: fit-content;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.ambo{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.kalaha{
+    background-color: gray;
+    height: 300px;
+    width: 150px;
+    border-radius: 33%;
+}
